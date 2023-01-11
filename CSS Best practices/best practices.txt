@@ -1,0 +1,23 @@
+CSS Best Practices
+
+elements/classes in a container are referred to as children
+wrapping one child in a div and using justify-content: space-between; will send both children to either side of the parent (container)
+
+
+USE INSPECT ELEMENT TO MAKE SURE ELEMENTS HAVE SPACE TO MOVE
+
+padding will create space inside border
+margin will create space outside
+
+* {
+box-sizing: border-box;
+} will keep everything in line nicely
+
+flex-wrap is good for laying boxes out in rows next to each other
+
+WHEN CODING WIDTH NEVER HARDCODE IT, do 
+width: 100%;
+max-width: 600px;
+
+margin: 0 auto; - centers it for you
+ ROWS cap the sides
